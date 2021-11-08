@@ -1,0 +1,18 @@
+﻿@page "/"
+
+<div class="container mt-2">
+	<div class="row">
+		<div class="col offset-10">
+			<input class="form-control" type="date" @onchange="SelectDateFromPicker" value="@selectedDay.ToString("yyyy-MM-dd")" />
+		</div>
+	</div>
+	<div class="row mt-2">
+		@foreach(DateTime day in weekDays)
+		{
+			<DayView Day="day" OnDaySelected="OnDaySelectedHandler"/>
+		}
+	</div>
+	<p>Current Selected Date: @selectedDay.ToShortDateString()</p>
+</div>
+
+
