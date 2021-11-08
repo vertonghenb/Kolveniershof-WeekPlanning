@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="FluentDateTime" Version="2.0.0" />
-    <PackageReference Include="LoreSoft.Blazor.Controls" Version="6.7.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.11" PrivateAssets="all" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
